@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/reservation/send",
+        "http://localhost:8080/api/v1/reservation/send",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
@@ -88,9 +88,10 @@ const Reservation = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
-                  type="number"
+                  type="tel"
                   placeholder="Phone"
                   value={phone}
+                  pattern="[0-9]*"
                   onChange={(e) => setPhone(e.target.value)}
                 />
               </div>

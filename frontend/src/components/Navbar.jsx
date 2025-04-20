@@ -7,10 +7,15 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="logo">ZEESH</div>
+        <div className="logo">Sizzle & Spice</div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => (
+               element.link === "donation" ? (
+                <a href="/donation" key={element.id} style={{ cursor: "pointer" }}>
+                  {element.title}
+                </a>
+              ) : (
               <Link
                 to={element.link}
                 spy={true}
@@ -20,6 +25,7 @@ const Navbar = () => {
               >
                 {element.title}
               </Link>
+              )
             ))}
           </div>
           <button className="menuBtn">OUR MENU</button>

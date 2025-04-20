@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Our food is crafted with the utmost care,We prioritize flavor, freshness, and nutritional value" 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Our dishes are crafted to offer an explosion of flavors, blending the finest ingredients to create an unforgettable taste experience. " 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "we understand the importance of timely service. That’s why we pride ourselves on our fast and efficient delivery" 
             }
         ],
         "dishes": [
@@ -65,6 +65,18 @@
             },
             {
                 "id": 8,
+                "image": "./dinner4.png",
+                "title": "MUSSELS SOUP",
+                "category": "Dinner"
+            },
+            {
+                "id": 9,
+                "image": "./dinner5.png",
+                "title": "ITALIAN SPAGHETTI",
+                "category": "Dinner"
+            },
+            {
+                "id": 10,
                 "image": "./dinner6.png",
                 "title": "GRILLED FISH",
                 "category": "Dinner"
@@ -166,6 +178,10 @@
                 "id": 5,
                 "title": "RESERVATION",
                 "link": "reservation"
+            },
+            {   "id": 6,
+                "title": "DONATION",
+                "link": "donation" 
             }
         ]
     

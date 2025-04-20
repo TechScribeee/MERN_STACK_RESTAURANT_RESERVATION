@@ -1,0 +1,83 @@
+.donation-form {
+  background: linear-gradient(to right, #fff, #fce4ec, #f3e5f5);
+  padding: 100px;
+  max-width: 1000px;
+  margin: 40px auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.donation-form h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.donation-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.donation-form input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  min-width: 160px;
+}
+
+.donation-form button {
+  padding: 10px 20px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.donation-form button:hover {
+  background-color: #4500b5;
+}
+
+.message {
+  margin-top: 15px;
+  color: green;
+  font-weight: 500;
+}
+
+.donation-dashboard {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  min-width: 180px;
+  max-width: 220px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}

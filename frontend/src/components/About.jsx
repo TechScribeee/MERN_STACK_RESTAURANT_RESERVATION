@@ -13,13 +13,7 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+            At Sizzle & Spice, we offer more than just great food and a seamless reservation experience – we’re committed to making a difference. As part of our dedication to achieving the Zero Hunger Sustainable Development Goal, we’ve implemented a donation option for our guests. With every meal you enjoy, you can choose to contribute to providing nutritious meals for those in need. By dining with us, you're not only indulging in delicious dishes, but also helping to fight hunger and support local communities. Join us in creating a world where no one goes hungry.
             </p>
             <Link to={"/"}>
               Explore Menu{" "}
